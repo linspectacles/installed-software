@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-installed-software",
+  "name": "Installed Software",
+  "version": "0.0.9",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/installed-software",
+  "order": 80,
+  "entrypoint": "installed_software/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Explicit-scan unified inventory for distro packages, Flatpak, Snap and discovered AppImages.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
